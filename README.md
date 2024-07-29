@@ -1,7 +1,7 @@
 # Aaron's Web Developer Portfolio
 Welcome! This repository will show you my projects and skills that I can provide.
 
-## H2 Web Design
+## Web Design
 ___
 I've gone ahead to go take the modern minamlist path on about building my portfolio. Simple and clean.
 
@@ -9,15 +9,15 @@ I've gone ahead to go take the modern minamlist path on about building my portfo
 - Clear and straightfoward visuals.
 - Implementing fixed scrolls to each page.
 
-## H2 About Me
+## About Me
 Web developing has been quite a journey and I am still evolving my techniques and skills. User experience and aesthethics
 are my priority to bring good services.
 
-## H2 Projects
+## Projects
 My projects will be showcased here:
 1. [Bullet Hell Anime Style](https://github.com/AaronJMandal/project-js-nyan-cat): A project from the bootcamp that teaches coding colision and full game customization.
 
-## H2 Skills
+## Skills
 - Frontend Development: HTML, CSS, Javascript and React
 - Backend Development: Node.js and Express.js
 - Database Management: MongoDB
