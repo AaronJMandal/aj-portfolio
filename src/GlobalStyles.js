@@ -8,16 +8,16 @@ const GlobalStyles = createGlobalStyle`
   --main-font-color: #FFFDE9;
   }
   
-  :: -webkit-scrollbar {
-   width: 1.2em;
+  ::-webkit-scrollbar {
+   width: 1.1em;
     }
-  :: -webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     background: hsl(185, 13%, 31% );
     margin-block: 1em;
     border-radius: 5px;
   }
 
-  :: -webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     background: hsl(185, 13%, 16%);
     border-radius: 5px;
   }
@@ -53,11 +53,13 @@ const GlobalStyles = createGlobalStyle`
     scroll-snap-align: start;
   }
 
-@media (max-width: 328px) {
+@media (max-width: 480px) {
+ ::-webkit-scrollbar {
+   width: 0.6em;
+    }
   .page-component {
     flex-direction: column; 
     margin: 10px;
-
   }
 }
 
