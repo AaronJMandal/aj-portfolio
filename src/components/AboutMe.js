@@ -18,10 +18,12 @@ const AboutMe = () => {
               optimazation especially in video-games and because of that, I
               found my journey learning full-stack really enjoyable!
             </StyledP>
-            <i
-              class="fa-solid fa-gamepad fa-bounce fa-6x"
-              style={{ marginTop: "90px", color: "#b6b3c2" }}
-            ></i>
+            <IconDiv>
+              <i
+                class="fa-solid fa-gamepad fa-bounce fa-6x"
+                style={{ marginTop: "90px", color: "#b6b3c2" }}
+              ></i>
+            </IconDiv>
           </AboutMeSection>
         </StyledDiv>
       </Container>
@@ -36,9 +38,9 @@ const Container = styled.div`
   justify-content: left;
   align-items: flex-start;
   flex-wrap: wrap;
-
-    @media (max-width: 1280px) {
-    max-witdh: 100%;
+  @media (max-width: 480px) {
+    justify-content: center;
+  }
 `;
 
 const WindowXP = styled.div`
@@ -51,6 +53,12 @@ const WindowXP = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+
+  @media (max-width: 480px) {
+    width: 300px;
+    height: 300px;
+    margin: 0 40px;
+  }
 `;
 
 const PFP = styled.img`
@@ -69,15 +77,14 @@ const StyledDiv = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  @media (max-width: 480px) {
+    justify-content: center;
+    text-align: center;
+  }
 `;
 
 const AboutMeSection = styled.div`
   max-width: 600px;
-  @media (max-width: 1280px) {
-    flex: 1;
-    padding-left: 10px;
-    max-witdh: 100%;
-  }
 `;
 
 const StyledH1 = styled.h1`
@@ -86,6 +93,10 @@ const StyledH1 = styled.h1`
   text-align: left;
   padding-bottom: 5px;
   margin-bottom: 10px;
+
+  @media (max-width: 480px) {
+    text-align: center;
+  }
 `;
 
 const StyledP = styled.p`
@@ -95,7 +106,17 @@ const StyledP = styled.p`
   max-width: 40ch;
   text-align: left;
   line-height: 1.3;
-  @media (max-width: 1280px) {
-    max-width: 100%;
+  @media (max-width: 480px) {
+    max-width: 35ch;
+    font-size: 16px;
+    text-align: center;
+  }
+`;
+
+const IconDiv = styled.div`
+  @media (max-width: 480px) {
+    i {
+      font-size: 30px;
+    }
   }
 `;

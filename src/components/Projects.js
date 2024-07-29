@@ -38,6 +38,12 @@ const Projects = () => {
 
 export default Projects;
 
+const ProjectWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 const StyledImg = styled.img`
   height: 500px;
   transition: transform 0.5s ease-in-out;
@@ -53,6 +59,11 @@ const StyledImg = styled.img`
   &:hover {
     transform: scale(1.3);
   }
+
+  @media (max-width: 480px) {
+    height: auto;
+    width: 80%;
+  }
 `;
 
 const StyledH1 = styled.h1`
@@ -61,13 +72,6 @@ const StyledH1 = styled.h1`
   justify-content: center;
   align-items: stretch;
   margin: 0;
-`;
-
-const ProjectWrapper = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 `;
 
 const ProjectDiv = styled.div`
@@ -83,4 +87,15 @@ const ProjectItem = styled.div`
   background: var(--accent-bg-color);
   padding: 20px;
   margin: 20px;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    margin: 10px 5px;
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      padding: 10px 0;
+      margin: 10px 0;
+    }
+  }
 `;

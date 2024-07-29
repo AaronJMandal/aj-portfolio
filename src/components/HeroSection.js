@@ -64,6 +64,9 @@ const Container = styled.div`
   text-align: center;
   justify-content: center;
   margin-top: 6%;
+  @media (max-width: 480px) {
+    margin: 10px 10px;
+  }
 `;
 
 const ProfilePicture = styled.img`
@@ -88,7 +91,7 @@ const IconLinks = styled.a`
 `;
 
 const TechSkill = styled.div`
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
 
   h2 {

@@ -53,6 +53,13 @@ const GlobalStyles = createGlobalStyle`
     scroll-snap-align: start;
   }
 
+@media (max-width: 328px) {
+  .page-component {
+    flex-direction: column; 
+    margin: 10px;
+
+  }
+}
 
 `;
 
