@@ -2,7 +2,6 @@
 Welcome! This repository will show you my projects and skills that I can provide.
 
 ## Web Design
-___
 I've gone ahead to go take the modern minamlist path on about building my portfolio. Simple and clean.
 
 - Used react one page design with each component taking full viewport to fully emphasize each section.
