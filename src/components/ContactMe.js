@@ -24,34 +24,41 @@ const ContactWrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px 0;
   z-index: 100;
   @media (max-width: 480px) {
     align-text: center;
     justify-content: center;
-    width: 100%;
   }
 `;
 
 const StyledH1 = styled.h1`
   font-size: 50px;
+  @media (max-width: 480px) {
+    align-text: center;
+    justify-content: center;
+  }
 `;
 
 const StyledH2 = styled.h2`
-  font-size: 25px;
+  font-size: 20px;
 
   @media (max-width: 480px) {
-    align-text: center;
+    text-align: center;
     justify-content: center;
   }
 `;
 
 const StyledBackground = styled.div`
   position: relative;
+  text-align: center;
+  justify-content: center;
   z-index: 1;
 
   @media (max-width: 480px) {
-    width: 75%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
   }
 `;
 
