@@ -1,16 +1,15 @@
 # Aaron's Web Developer Portfolio
-Welcome! This repository will show you my projects and skills that I can provide.
+Welcome! This repository will show you the projects and skills that I can provide.
 
 ## Web Design
-I've gone ahead to go take the modern minamlist path on about building my portfolio. Simple and clean.
+I've gone ahead and taken the modern minimalist path to building my portfolio. Simple and clean.
 
-- Used react one page design with each component taking full viewport to fully emphasize each section.
-- Clear and straightfoward visuals.
-- Implementing fixed scrolls to each page.
+- Used react one-page design with each component taking full viewport to emphasize each section fully.
+- Clear and straightforward visuals.
+- Implementing fixed scrolls on each page.
 
 ## About Me
-Web developing has been quite a journey and I am still evolving my techniques and skills. User experience and aesthethics
-are my priority to bring good services.
+Web development has been quite a journey and I am still evolving my techniques and skills. User experience and aesthetics are my priority to bring good services.
 
 ## Projects
 My projects will be showcased here:
@@ -21,7 +20,7 @@ My projects will be showcased here:
 - Backend Development: Node.js and Express.js
 - Database Management: MongoDB
 ## Contact
-If you're interested to work with me, feel free to get in touch! You can send an email through:
+If you're interested in working with me, feel free to get in touch! You can send an email through:
 - Email: aaronj.mandal1@gmail.com
 - Portfolio Website: <placeholder>
 
