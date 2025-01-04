@@ -31,7 +31,7 @@ My projects will be showcased here:
 If you're interested in working with me, feel free to get in touch! You can send an email through:
 
 - Email: aaronj.mandal1@gmail.com
-- Portfolio Website: <placeholder>
+- Portfolio Website: [ajmandal-portfolio.vercel.app](https://ajmandal-portfolio.vercel.app/)
 
 Thank you for taking your time to visit my portfolio repository! It will be constantly updated each time I develop a new app
 or project.
